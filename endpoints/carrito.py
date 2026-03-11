@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, abort, Blueprint
-from Modelos import db, Usuario, Carrito, ItemCarrito, Cotizacion
+from models import db, Usuario, Carrito, ItemCarrito, Cotizacion
 from datetime import datetime as date
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 carrito_bp = Blueprint('carrito_bp', __name__)

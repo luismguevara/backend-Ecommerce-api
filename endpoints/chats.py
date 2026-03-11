@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, abort, Blueprint
-from Modelos import db, Usuario, MensajesChat, Chat, UsuarioChat, Factura
+from models import db, Usuario, MensajesChat, Chat, UsuarioChat, Factura
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from datetime import timedelta, datetime as date
 chats_bp = Blueprint('chats_bp', __name__)

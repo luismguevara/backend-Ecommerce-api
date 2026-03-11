@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, abort, Blueprint
-from Modelos import db, Usuario, Carrito, Factura, Pagos, ItemFactura, Chat, UsuarioChat, MensajesChat, Calificacion
+from models import db, Usuario, Carrito, Factura, Pagos, ItemFactura, Chat, UsuarioChat, MensajesChat, Calificacion
 from datetime import datetime as date
 from flask_jwt_extended import JWTManager, jwt_required, get_jwt_identity
 

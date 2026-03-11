@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, abort, Blueprint
 import os
-from Modelos import db, Producto, ItemCarrito
+from models import db, Producto, ItemCarrito
 from werkzeug.utils import secure_filename
 from flask import current_app
 from flask_jwt_extended import JWTManager, jwt_required, get_jwt_identity

@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, abort, request
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from Modelos import db, Usuario, PreguntaSeguridad
+from models import db, Usuario, PreguntaSeguridad
 from werkzeug.security import generate_password_hash, check_password_hash
 
 usuarios_bp = Blueprint('usuarios_bp', __name__)
