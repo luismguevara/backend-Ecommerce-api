@@ -34,7 +34,7 @@ The backend is responsible for:
 
 ## Project Structure
 
-App.py models.py requeriments.txt endpoints/ database/
+App.py || models.py || requeriments.txt || endpoints/ || database/
 
 ## Usage
 
