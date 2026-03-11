@@ -1,0 +1,8 @@
+__pycache__/
+endpoints/__pycache__/
+*.log
+.env
+key/
+virt/
+AntiguoServeer.py
+Test.py
