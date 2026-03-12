@@ -1,8 +1,6 @@
 from datetime import datetime
-from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
-
-db = SQLAlchemy()
+from database.db import db
 
 DIAS = {
     'Monday': 'Lun',
